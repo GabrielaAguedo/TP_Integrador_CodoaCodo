@@ -89,8 +89,9 @@
 }
 
 .btn_q:hover {
-    color: rgb(41, 167, 68);
-    border: solid 2px rgb(41, 167, 68);
+    background-color: rgb(41, 167, 68);
+    color: white;
+    border: solid 1px rgb(25, 102, 42);
     font-weight: 700;
 }
 
@@ -105,8 +106,9 @@
 
 .btn_c:hover {
     background: fixed;
-    color: rgb(250, 255, 251);
-    border: solid 2px rgb(250, 255, 251);
+    color: rgb(41, 167, 68);
+    border: solid 1px rgb(41, 167, 68);
+    font-weight: 700;
 }
 
 /*MAIN*/
@@ -203,6 +205,12 @@
     border-radius: 5px;
 }
 
+.btn__desc:hover {
+    background-color: rgb(53, 58, 64);
+    color: rgb(255, 255, 255);
+    border: solid 2px rgb(23, 23, 24);
+}
+
 /*FORMULARIO DE INSCRIPCION*/
 
 .section__form {
@@ -246,6 +254,10 @@
     font-weight: 600;
     font-size: 1.1rem;
     margin-top: 0;
+}
+
+.btn__form:hover {
+    background-color: rgb(107, 143, 45);
 }
 
 .cont__btn {
@@ -359,6 +371,31 @@
     .footer-nav__link {
         padding: 2% 0;
     }
+
+    .btn_q {
+        background: fixed;
+        color: white;
+        border: solid 1px white;
+        padding: 6px 8px;
+        border-radius: 3px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        width: 70%;
+        margin: 2% 0 2% 0;
+        font-weight: 500;
+    }
+    
+    .btn_c {
+        background-color: rgb(41, 167, 68);
+        color: white;
+        border: none;
+        padding: 6px 8px;
+        border-radius: 3px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        width: 70%;
+        font-weight: 500;
+    } 
     
     
 }
@@ -403,6 +440,8 @@
         font-size: 0.9rem;
         width: 30%;
         margin: 2% 0 2% 0;
+        font-weight: 500;
+        text-align: center;
     }
     
     .btn_c {
@@ -414,5 +453,7 @@
         text-decoration: none;
         font-size: 0.9rem;
         width: 30%;
+        font-weight: 500;
+        text-align: center;
     } 
 }
