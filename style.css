@@ -88,6 +88,12 @@
     margin: 10px;
 }
 
+.btn_q:hover {
+    color: rgb(41, 167, 68);
+    border: solid 2px rgb(41, 167, 68);
+    font-weight: 700;
+}
+
 .btn_c {
     background-color: rgb(41, 167, 68);
     color: white;
@@ -95,6 +101,12 @@
     padding: 8px 10px;
     border-radius: 5px;
     text-decoration: none;
+}
+
+.btn_c:hover {
+    background: fixed;
+    color: rgb(250, 255, 251);
+    border: solid 2px rgb(250, 255, 251);
 }
 
 /*MAIN*/
@@ -388,8 +400,8 @@
         padding: 6px 8px;
         border-radius: 3px;
         text-decoration: none;
-        font-size: 0.85rem;
-        width: 50%;
+        font-size: 0.9rem;
+        width: 30%;
         margin: 2% 0 2% 0;
     }
     
@@ -400,7 +412,7 @@
         padding: 6px 8px;
         border-radius: 3px;
         text-decoration: none;
-        font-size: 0.85rem;
-        width: 50%;
+        font-size: 0.9rem;
+        width: 30%;
     } 
 }
