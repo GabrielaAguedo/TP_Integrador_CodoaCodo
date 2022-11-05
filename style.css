@@ -17,6 +17,11 @@
     background-size: cover;
 }
 
+.header {
+    height: 100vh;
+    
+}
+
 .navbar {
     background-color: rgb(53, 58, 64);
     display: flex;
@@ -119,6 +124,15 @@
     justify-items: center;
     justify-content: center;
     padding: 0% 10% 5% 10%;
+}
+
+.main2 {
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main__titulo {
@@ -231,6 +245,7 @@
     align-items: center;
 }
 
+
 .section-form__titulo h2 {
     margin: 0;
 }
@@ -256,7 +271,16 @@
     margin-top: 0;
 }
 
-.btn__form:hover {
+#btn-borrar, 
+#btn-resume {
+    background-color: rgb(150, 201, 62);
+    color: white;
+    font-weight: 400;
+}
+
+.btn__form:hover,
+#btn-borrar:hover,
+#btn-resume:hover {
     background-color: rgb(107, 143, 45);
 
 }
@@ -272,6 +296,11 @@
     margin-bottom: 15px;
     font-size: .7rem;
     color: rgb(107, 118, 164);
+}
+
+.ticket__form--resumen {
+    background-color: rgb(184, 218, 255);
+    
 }
 
 /*FOOTER*/
